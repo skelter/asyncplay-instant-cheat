@@ -7,7 +7,7 @@
   [x]
   (println x "Hello, World!"))
 
-(def memlog (agent (list)))
+(def memlog "Agents are interesting beasts." (agent (list)))
 
 (defn hget
   "Fetch the contents of the url, async.  Returns a channel from which the results will be gotten."
